@@ -18,6 +18,7 @@ function saveFacebookFriends() {
     facebookFriends = data.data;
     $('#login').hide();
     $('#twitter').show();
+    $('.timeline-footer', $("#twitter-widget-1").contents()).hide();
   });
 }
 
